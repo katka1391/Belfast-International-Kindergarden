@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
 
 header {
     background-image: url(banner.jpg);
@@ -9,22 +13,41 @@ header {
     height: 600px;
 }
 
+.b::first-letter {
+    color: #FFE964;
+}
+
+.i::first-letter {
+    color: red;
+}
+
+.k::first-letter {
+    color: blue;
+}
 
 
 .header-text {
     color: white;
+    font-size: 45px;
+    line-height: 0.2;
+    margin-left: 100px;
+    margin-right: 380px;
+    padding-top: 120px;
+    border-bottom: 3px solid white 
 }
 
 .mission {
     background-color: #FFE964;
     text-align: center;
-    padding: 30px;
-    padding-bottom: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .about.us {
     padding: 30px;
-    padding-left: 150px;
+    padding-left: 300px;
     font-weight: 8px;
     
 }
@@ -47,6 +70,6 @@ footer {
 
 .our.team.h2 {
     text-align: left;
-    padding-left: 50px;
+    padding-left: 280px;
 }
 
